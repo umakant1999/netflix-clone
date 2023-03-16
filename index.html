@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,600&family=Red+Rose:wght@700&display=swap" rel="stylesheet">
+    <script async >	// Images URLs
+      var images = [
+        "https://assets.nflxext.com/ffe/siteui/vlv3/d049a3bd-40ee-411b-9f16-d1def798d43b/d6aeb5a9-b14c-42d4-999e-c2f0d6c60f04/IN-en-20230313-popsignuptwoweeks-perspective_alpha_website_small.jpg"
+        
+      ];
+  
+      // Images display karne ke liye function
+      function displayImages(images) {
+        var container = document.getElementById("image-container");
+        for (var i = 0; i < images.length; i++) {
+          var img = document.createElement("img");
+          img.src = images[i];
+          container.appendChild(img);
+        }
+      }
+  
+      // Images display karna
+  </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+ 
+   <nav id="image-container">
+    
+    <img  class =" logo"src="https://images.ctfassets.net/y2ske730sjqp/821Wg4N9hJD8vs5FBcCGg/9eaf66123397cc61be14e40174123c40/Vector__3_.svg?w=460" alt="">
+    <div class="drop">
+      
+     <select value="" >
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+      </svg>
+      <option>English</option>
+      <option>Hindi</option>
+     </select>
+    <button> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+    </svg>SignIn</button>
+  </div>
+  
+</nav>
+  <main class="wrapper" id="image-container">
+   <div class="section-details">
+
+        <h1>Unlimited movies, TV shows and more.</h1>
+        <h3>Watch anywhere. Cancel anytime.</h3>
+        <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+   </div>
+
+        <div class="input-items">
+
+<input  id="text" type="text" placeholder="Email Address" >
+<button> <svg s xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+</svg> Get Started </button>
+        </div>
+
+
+      <hr>
+        
+      
+
+  </main>
+  <div class="wrapper">
+  <section class="sectiom-download">
+<div class="heading"></div>
+    <h1>Enjoy on your TV.</h1>
+    <h4>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h4>
+  </section>
+  <section class="wrapper-left">
+
+    <div class="media"> <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+     
+    <video data-uia="nmhp-card-animation-asset-video"></video>
+    </div>
+   
+  </section>
+</div>
+  <hr>
+  <div class="wrapper">
+<section class="Download"><img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt=""></section>
+  <section class="sectiom-download">
+
+    <h1>Download your shows to watch offline.</h1>
+    <p>Save your favourites easily and always have something to watch.</p>
+
+  </section>
+</div>
+<hr>
+  <section class="wrapper">
+    <div class="sectiom-download">
+    <h1>Watch everywhere.</h1>
+    <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+    <div class="two-section-image">
+      <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" alt="">
+    </div>
+  </div>
+  </section>
+  <hr>
+<div class="wrapper">
+<div class="sectiom-download">
+<img src="https://occ-0-2152-3647.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png?r=420" alt="">
+  <h1>Create profiles for children.</h1>
+  <h4>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h4>
+</div></div>
+<hr>
+<div class="sectiom-download">
+  <h1>Frequently Asked Questions</h1>
+
+  <div class="card card 1" >what is netflix ? <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+  </svg> </div>
+  <div  class="card card 1"> what is netflix ? <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+  </svg></div>
+  <div  class="card card 1">what is netflix ? <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+  </svg></div>
+  <div class="card card 1">what is netflix ? <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+  </svg></div>
+  <div class="card card 1">what is netflix ?<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+  </svg> </div>
+
+</div>
+<div class="footer-input">
+
+<p>Ready to watch? Enter your email to create or restart your membership.</p>
+<div class="inputlist">
+  <input  id="text" type="text" placeholder="Email Address" >
+ 
+</div>
+<button class="button-start" > <svg s xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+</svg> Get Started </button>
+</div>
+
+
+  <footer class="wrapper-left" >
+    <p>Questions? Call <a href=""> 000-800-919-1694</a></p>
+ </footer>
+    <hr>
+    <ul class="footer-list">
+      <li><a href="">FAQ</a></li>
+      <li><a href="">Account</a></li>
+      <li><a href="">Jobs</a></li>
+      <li><a href="">PrivacY</a></li>
+      <li><a href=""> Contact Us</a></li>
+     
+
+    </ul>
+    <ul class="footer-list-two">
+      <li><a href="">Gift Card Terms</a></li>
+      <li><a href="">Media Centre</a></li>
+      <li><a href="">Ways to Watch</a></li>
+      <li><a href=""> Ways to Watch</a></li>
+      <li><a href=""> Speed Test</a></li>
+     
+
+    </ul>
+    <ul class="footer-list-three">
+      <li><a href="">Help Centre</a></li>
+      <li><a href="">Investor Relations</a></li>
+      <li><a href="">
+Investor Relations</a></li>
+      <li><a href="">
+        Corporate Information</a></li>
+      <li><a href=""> Legal Notices</a></li>
+     
+
+    </ul>
+ 
+</body>
+</html>
